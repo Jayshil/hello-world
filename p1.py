@@ -10,3 +10,7 @@ y = np.random.normal(1,0.2,10000)
 plt.hist(x,bins=500)
 plt.hist(y,bins=500)
 plt.show()
+
+z = np.random.exponential(1,1000)
+plt.hist(z, bins=100)
+plt.show()
