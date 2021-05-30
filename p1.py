@@ -14,3 +14,7 @@ plt.show()
 z = np.random.exponential(1,1000)
 plt.hist(z, bins=100)
 plt.show()
+
+ww = z**2
+plt.hist(ww, bins=500)
+plt.show()
