@@ -1,0 +1,15 @@
+mdilution_visit1     fixed                1.0                 
+mflux_visit1         normal               0.0,0.1             
+sigma_w_visit1       loguniform           0.1,10000.0         
+GP_sigma_visit1      loguniform           1e-05,10000.0       
+GP_timescale_visit1  loguniform           0.001,100.0         
+GP_rho_visit1        loguniform           0.001,100.0         
+P_p1                 fixed                4.736205            
+t0_p1                normal               0.5011,0.1          
+r1_p1                uniform              0.0,1.0             
+r2_p1                uniform              0.0,1.0             
+q1_CHEOPS            uniform              0.0,1.0             
+q2_CHEOPS            uniform              0.0,1.0             
+sesinomega_p1        fixed                0.1753              
+secosomega_p1        fixed                -0.0226             
+a_p1                 loguniform           1.0,100.0           
