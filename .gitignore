@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 dynamic_dynesty_bug/juliet/_dynesty_DNS_posteriors.pkl
 dynamic_dynesty_bug/juliet/posteriors.dat
+dynamic_dynesty_bug/juliet1
