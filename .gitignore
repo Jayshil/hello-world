@@ -135,3 +135,7 @@ dynamic_dynesty_bug/juliet*
 mdil/juliet*
 
 /hd209/Analysis
+
+/Img/Data
+
+*.DS_Store
