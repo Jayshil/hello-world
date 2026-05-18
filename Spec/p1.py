@@ -1,4 +1,5 @@
 # High-resolution spectrograph wavelength coverage plot
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
@@ -88,7 +89,7 @@ ax.set_yticklabels(y_telescopes, fontsize=11)
 
 # Axis labels and limits
 ax.set_xlabel("Wavelength (μm)", fontsize=14)
-ax.set_xlim(0.25, 5.6)
+ax.set_xlim(0.27, 5.6)
 ax.set_title("Wavelength Coverage of High-Resolution Spectrographs", fontsize=16, weight='bold')
 
 # Add legend
@@ -98,6 +99,10 @@ ax.legend(handles=patches, title="Band", loc="lower right")
 # Grid and layout
 ax.grid(axis='x', linestyle='--', alpha=0.5)
 plt.tight_layout()
+
+ax.set_xscale('log')
+ax.set_xticks(ticks=np.array([0.3, 0.5, 1., 2., 3., 4., 5.]),\
+              labels=np.array(['0.3', '0.5', '1', '2', '3', '4', '5']))
 
 # Show or save the plot
 #plt.show()
